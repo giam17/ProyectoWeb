@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas en Laptops - PC Store Sucre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="navbar bg-danger">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="d-flex">
+                <a href="index.html" class="text-white me-3">Inicio</a>
+                <a href="teclados.html" class="text-white me-3">Teclado</a>
+                <a href="audifonos.html" class="text-white me-3">Audífonos</a>
+                <a href="mouse.html" class="text-white me-3">Mouse</a>
+            </div>
+            <div class="logo">
+                <a href="#" class="text-white fs-5 fw-bold">Iniciar sesión</a>
+                <a href="carrito.html" class="text-white fs-5 fw-bold">🛒 Carrito</a>
+                <span class="text-white fs-5 fw-bold">PC STORE SUCRE</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Ofertas en Laptops</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!-- Laptop 1 -->
+            <div class="col">
+                <div class="card">
+                    <img src="laptop1.jpg" class="card-img-top" alt="Laptop Dell Inspiron 15">
+                    <div class="card-body">
+                        <h5 class="card-title">Dell Inspiron 15</h5>
+                        <p class="card-text">Intel Core i5 | 8GB RAM | 512GB SSD | 15.6" Full HD</p>
+                        <p class="card-text">Laptop ideal para trabajo, estudio y entretenimiento con gran rendimiento.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="1" data-nombre="Dell Inspiron 15" data-precio="650" data-imagen="laptop1.jpg">
+                            650,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laptop 2 -->
+            <div class="col">
+                <div class="card">
+                    <img src="laptop2.jpg" class="card-img-top" alt="HP Pavilion x360">
+                    <div class="card-body">
+                        <h5 class="card-title">HP Pavilion x360</h5>
+                        <p class="card-text">Intel Core i7 | 16GB RAM | 512GB SSD | Pantalla táctil de 14"</p>
+                        <p class="card-text">Laptop convertible 2 en 1, ideal para quienes buscan versatilidad y alta productividad.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="2" data-nombre="HP Pavilion x360" data-precio="850" data-imagen="laptop2.jpg">
+                            850,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laptop 3 -->
+            <div class="col">
+                <div class="card">
+                    <img src="laptop3.jpg" class="card-img-top" alt="Lenovo ThinkPad X1 Carbon">
+                    <div class="card-body">
+                        <h5 class="card-title">Lenovo ThinkPad X1 Carbon</h5>
+                        <p class="card-text">Intel Core i7 | 16GB RAM | 1TB SSD | Pantalla 14" Full HD</p>
+                        <p class="card-text">Laptop ultraligera de alta gama para profesionales, con un rendimiento excepcional.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="3" data-nombre="Lenovo ThinkPad X1 Carbon" data-precio="1200" data-imagen="laptop3.jpg">
+                            1200,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laptop 4 -->
+            <div class="col">
+                <div class="card">
+                    <img src="laptop4.jpg" class="card-img-top" alt="MacBook Air M1">
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook Air M1</h5>
+                        <p class="card-text">Apple M1 | 8GB RAM | 256GB SSD | 13.3" Retina</p>
+                        <p class="card-text">Laptop ultradelgada y potente con el chip M1, ideal para tareas intensivas.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="4" data-nombre="MacBook Air M1" data-precio="1450" data-imagen="laptop4.jpg">
+                            1450,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laptop 5 -->
+            <div class="col">
+                <div class="card">
+                    <img src="laptop5.jpg" class="card-img-top" alt="Acer Aspire 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Acer Aspire 5</h5>
+                        <p class="card-text">Intel Core i3 | 4GB RAM | 1TB HDD | Pantalla 15.6"</p>
+                        <p class="card-text">Laptop económica ideal para tareas básicas como navegar y ver contenido.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="5" data-nombre="Acer Aspire 5" data-precio="400" data-imagen="laptop5.jpg">
+                            400,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laptop 6 -->
+            <div class="col">
+                <div class="card">
+                    <img src="laptop6.jpg" class="card-img-top" alt="Asus ZenBook 14">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus ZenBook 14</h5>
+                        <p class="card-text">Intel Core i5 | 8GB RAM | 512GB SSD | Pantalla 14" Full HD</p>
+                        <p class="card-text">Laptop portátil ligera y compacta con excelente rendimiento y diseño.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="6" data-nombre="Asus ZenBook 14" data-precio="750" data-imagen="laptop6.jpg">
+                            750,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laptop 7 -->
+            <div class="col">
+                <div class="card">
+                    <img src="laptop7.jpg" class="card-img-top" alt="Microsoft Surface Laptop 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Microsoft Surface Laptop 4</h5>
+                        <p class="card-text">Intel Core i5 | 8GB RAM | 256GB SSD | Pantalla 13.5" PixelSense</p>
+                        <p class="card-text">Laptop elegante y potente, ideal para tareas de productividad y creatividad.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="7" data-nombre="Microsoft Surface Laptop 4" data-precio="1000" data-imagen="laptop7.jpg">
+                            1000,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laptop 8 -->
+            <div class="col">
+                <div class="card">
+                    <img src="laptop8.jpg" class="card-img-top" alt="HP Omen 15">
+                    <div class="card-body">
+                        <h5 class="card-title">HP Omen 15</h5>
+                        <p class="card-text">Intel Core i7 | 16GB RAM | 1TB HDD + 512GB SSD | 15.6" Full HD</p>
+                        <p class="card-text">Laptop gaming con alto rendimiento, ideal para juegos exigentes y multitarea.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="8" data-nombre="HP Omen 15" data-precio="1600" data-imagen="laptop8.jpg">
+                            1600,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laptop 9 -->
+            <div class="col">
+                <div class="card">
+                    <img src="laptop9.jpg" class="card-img-top" alt="Alienware M15">
+                    <div class="card-body">
+                        <h5 class="card-title">Alienware M15</h5>
+                        <p class="card-text">Intel Core i9 | 32GB RAM | 1TB SSD | 15.6" 4K UHD</p>
+                        <p class="card-text">Laptop de alto rendimiento para gaming y tareas de diseño gráfico avanzado.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="9" data-nombre="Alienware M15" data-precio="2200" data-imagen="laptop9.jpg">
+                            2200,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laptop 10 -->
+            <div class="col">
+                <div class="card">
+                    <img src="laptop10.jpg" class="card-img-top" alt="MSI GF65 Thin">
+                    <div class="card-body">
+                        <h5 class="card-title">MSI GF65 Thin</h5>
+                        <p class="card-text">Intel Core i7 | 16GB RAM | 512GB SSD | 15.6" Full HD</p>
+                        <p class="card-text">Laptop gaming con gráficos dedicados y diseño ultradelgado para jugadores exigentes.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="10" data-nombre="MSI GF65 Thin" data-precio="1300" data-imagen="laptop10.jpg">
+                            1300,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Contacto -->
+                <div class="col-md-4 mb-4">
+                    <h5>Informacion</h5>
+                    <p><a href="acercade.html" class="footer-link">Acerca de</a></p>
+                    <p><a href="contactos.html" class="footer-link">Contactos</a></p>
+                    <p><a href="Formulario.html" class="footer-link">Formulario</a></p>
+                    <p><a href="Creadores.html" class="footer-link">Creadores</a></p>
+                    
+                    
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Preguntas</h5>
+                    <p><a href="comocomprar.html" class="footer-link">Como comprar</a></p>
+                    <p><a href="pqcomprar.html" class="footer-link">Porque comprar en nuestra tienda</a></p>
+                    <p><a href="quehace.html" class="footer-link">Que hace nuestra pagina en especial</a></p>
+                    <p><a href="sepamas.html" class="footer-link">Sepa mas de computadoras</a></p>
+                    <p><a href="proposito.html" class="footer-link">Cual es nuestro proposito</a></p>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <h5>Redes Sociales</h5>
+                    <p>📞 Teléfono: 69949446</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/pcstoresucre" target="_blank" class="social-link">
+                            <img src="facebook-icon.png" alt="Facebook" class="social-icon">
+                        </a>
+                        <a href="https://instagram.com/pcstoresucre" target="_blank" class="social-link">
+                            <img src="instagram-icon.png" alt="Instagram" class="social-icon">
+                        </a>
+                        <a href="https://twitter.com/pcstoresucre" target="_blank" class="social-link">
+                            <img src="twitter-icon.png" alt="Twitter" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+    
+            
+    
+            <!-- Copyright -->
+            <div class="text-center mt-4">
+                <p>&copy; 2024 PC Store Sucre. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="carrito.js"></script>
+
+</body>
+</html>

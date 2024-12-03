@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cámaras Web - PC Store Sucre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="navbar bg-danger">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="d-flex">
+                <a href="index.html" class="text-white me-3">Inicio</a>
+                <a href="teclados.html" class="text-white me-3">Teclado</a>
+                <a href="audifonos.html" class="text-white me-3">Audífonos</a>
+                <a href="mouse.html" class="text-white me-3">Mouse</a>
+            </div>
+            <div class="logo">
+                <a href="#" class="text-white fs-5 fw-bold">Iniciar sesión</a>
+                <a href="carrito.html" class="text-white fs-5 fw-bold">🛒 Carrito</a>
+                <span class="text-white fs-5 fw-bold">PC STORE SUCRE</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Cámaras Web</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!-- Cámara Web 1 -->
+            <div class="col">
+                <div class="card">
+                    <img src="camara_web1.jpg" class="card-img-top" alt="Cámara Web Logitech C920 HD Pro">
+                    <div class="card-body">
+                        <h5 class="card-title">Logitech C920 HD Pro</h5>
+                        <p class="card-text">1080p Full HD | Micrófono estéreo incorporado | Autoenfoque</p>
+                        <p class="card-text">Cámara web ideal para videoconferencias, grabación de videos en alta definición.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="1" data-nombre="Logitech C920 HD Pro" data-precio="180" data-imagen="camara_web1.jpg">
+                            180,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cámara Web 2 -->
+            <div class="col">
+                <div class="card">
+                    <img src="camara_web2.jpg" class="card-img-top" alt="Cámara Web Razer Kiyo">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Kiyo</h5>
+                        <p class="card-text">720p 60fps | Iluminación circular | Autoenfoque</p>
+                        <p class="card-text">Cámara web con iluminación integrada para streamers y videollamadas de alta calidad.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="2" data-nombre="Razer Kiyo" data-precio="220" data-imagen="camara_web2.jpg">
+                            220,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cámara Web 3 -->
+            <div class="col">
+                <div class="card">
+                    <img src="camara_web3.jpg" class="card-img-top" alt="Cámara Web Logitech Brio 4K">
+                    <div class="card-body">
+                        <h5 class="card-title">Logitech Brio 4K</h5>
+                        <p class="card-text">4K Ultra HD | Zoom digital 5x | Micrófono de cancelación de ruido</p>
+                        <p class="card-text">Cámara premium con resolución 4K, ideal para profesionales que buscan alta calidad en video.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="3" data-nombre="Logitech Brio 4K" data-precio="350" data-imagen="camara_web3.jpg">
+                            350,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cámara Web 4 -->
+            <div class="col">
+                <div class="card">
+                    <img src="camara_web4.jpg" class="card-img-top" alt="Microsoft LifeCam HD-3000">
+                    <div class="card-body">
+                        <h5 class="card-title">Microsoft LifeCam HD-3000</h5>
+                        <p class="card-text">720p HD | Micrófono con cancelación de ruido | Diseño compacto</p>
+                        <p class="card-text">Cámara económica ideal para videollamadas y reuniones online con calidad HD.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="4" data-nombre="Microsoft LifeCam HD-3000" data-precio="80" data-imagen="camara_web4.jpg">
+                            80,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cámara Web 5 -->
+            <div class="col">
+                <div class="card">
+                    <img src="camara_web5.jpg" class="card-img-top" alt="AUSDOM AW615">
+                    <div class="card-body">
+                        <h5 class="card-title">AUSDOM AW615</h5>
+                        <p class="card-text">1080p Full HD | Micrófono estéreo | Amplio ángulo de visión</p>
+                        <p class="card-text">Cámara con gran ángulo de visión, ideal para videoconferencias o grabación de contenido.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="5" data-nombre="AUSDOM AW615" data-precio="100" data-imagen="camara_web5.jpg">
+                            100,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cámara Web 6 -->
+            <div class="col">
+                <div class="card">
+                    <img src="camara_web6.jpg" class="card-img-top" alt="Creative Live! Cam Sync 1080p">
+                    <div class="card-body">
+                        <h5 class="card-title">Creative Live! Cam Sync 1080p</h5>
+                        <p class="card-text">1080p Full HD | Micrófono con cancelación de ruido | Conexión USB</p>
+                        <p class="card-text">Cámara web fácil de usar con calidad de imagen clara y micrófono integrado.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="6" data-nombre="Creative Live! Cam Sync 1080p" data-precio="70" data-imagen="camara_web6.jpg">
+                            70,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cámara Web 7 -->
+            <div class="col">
+                <div class="card">
+                    <img src="camara_web7.jpg" class="card-img-top" alt="Logitech C930e">
+                    <div class="card-body">
+                        <h5 class="card-title">Logitech C930e</h5>
+                        <p class="card-text">1080p Full HD | Visión amplia 90° | Micrófono de reducción de ruido</p>
+                        <p class="card-text">Cámara profesional con visión de gran angular y excelente rendimiento en videollamadas.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="7" data-nombre="Logitech C930e" data-precio="200" data-imagen="camara_web7.jpg">
+                            200,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cámara Web 8 -->
+            <div class="col">
+                <div class="card">
+                    <img src="camara_web8.jpg" class="card-img-top" alt="Razer Kiyo Pro">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Kiyo Pro</h5>
+                        <p class="card-text">1080p Full HD | Sensor de imagen de alta calidad | Iluminación adaptativa</p>
+                        <p class="card-text">Cámara con sensor avanzado y adaptabilidad en condiciones de poca luz, ideal para streamers.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="8" data-nombre="Razer Kiyo Pro" data-precio="300" data-imagen="camara_web8.jpg">
+                            300,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cámara Web 9 -->
+            <div class="col">
+                <div class="card">
+                    <img src="camara_web9.jpg" class="card-img-top" alt="Logitech StreamCam">
+                    <div class="card-body">
+                        <h5 class="card-title">Logitech StreamCam</h5>
+                        <p class="card-text">1080p 60fps | Conexión USB-C | Autoenfoque inteligente</p>
+                        <p class="card-text">Cámara profesional ideal para streaming y grabación de alta calidad en 60fps.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="9" data-nombre="Logitech StreamCam" data-precio="350" data-imagen="camara_web9.jpg">
+                            350,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cámara Web 10 -->
+            <div class="col">
+                <div class="card">
+                    <img src="camara_web10.jpg" class="card-img-top" alt="Creative Labs Live! Cam">
+                    <div class="card-body">
+                        <h5 class="card-title">Creative Labs Live! Cam</h5>
+                        <p class="card-text">720p HD | Conexión USB | Micrófono incorporado</p>
+                        <p class="card-text">Cámara básica ideal para videollamadas de baja resolución y conexión sencilla.</p>
+                        <button class="btn btn-success agregar-carrito" data-id="10" data-nombre="Creative Labs Live! Cam" data-precio="50" data-imagen="camara_web10.jpg">
+                            50,00 BS
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Contacto -->
+                <div class="col-md-4 mb-4">
+                    <h5>Informacion</h5>
+                    <p><a href="acercade.html" class="footer-link">Acerca de</a></p>
+                    <p><a href="contactos.html" class="footer-link">Contactos</a></p>
+                    <p><a href="Formulario.html" class="footer-link">Formulario</a></p>
+                    <p><a href="Creadores.html" class="footer-link">Creadores</a></p>
+                    
+                    
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Preguntas</h5>
+                    <p><a href="comocomprar.html" class="footer-link">Como comprar</a></p>
+                    <p><a href="pqcomprar.html" class="footer-link">Porque comprar en nuestra tienda</a></p>
+                    <p><a href="quehace.html" class="footer-link">Que hace nuestra pagina en especial</a></p>
+                    <p><a href="sepamas.html" class="footer-link">Sepa mas de computadoras</a></p>
+                    <p><a href="proposito.html" class="footer-link">Cual es nuestro proposito</a></p>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <h5>Redes Sociales</h5>
+                    <p>📞 Teléfono: 69949446</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/pcstoresucre" target="_blank" class="social-link">
+                            <img src="facebook-icon.png" alt="Facebook" class="social-icon">
+                        </a>
+                        <a href="https://instagram.com/pcstoresucre" target="_blank" class="social-link">
+                            <img src="instagram-icon.png" alt="Instagram" class="social-icon">
+                        </a>
+                        <a href="https://twitter.com/pcstoresucre" target="_blank" class="social-link">
+                            <img src="twitter-icon.png" alt="Twitter" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+    
+            
+    
+            <!-- Copyright -->
+            <div class="text-center mt-4">
+                <p>&copy; 2024 PC Store Sucre. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="carrito.js"></script>
+
+</body>
+</html>
